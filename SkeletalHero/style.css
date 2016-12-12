@@ -1,0 +1,83 @@
+/*
+Theme Name: Skeletal Hero
+Description: Posts will appear as if spoken by a true calcium warrior!
+Author: Jack Raney
+Authur URI: http://author.skeletonmemes.pw/
+Template: isca
+Version: 1.0.0
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain: SkeletalHero
+*/
+
+body {
+background-color: #000;background: #000;
+font-family: "Papyrus";
+color: #FFF;
+border-color: #FFF;
+}
+
+a, a:visited,
+a.dark:hover,
+a.dark:active {
+    color: #FFF;
+}
+
+a.dark, a.dark:visited,
+aside .widget li a, aside .widget li a:visited,
+#logo a, #logo a:visited, body {
+    color: #FFF;
+}
+
+hr {
+    color: #FFF;
+}
+
+h2#description {
+    color: #FFF;
+}
+
+.entry {
+    background: #000;
+}
+
+#branding {
+    background: #FFF;
+    margin: 0px;
+}
+
+#logo a {
+    color: #FFF;
+}
+
+#main {
+    border: 3px solid #FFF;
+    padding: 0px;
+}
+
+#masthead {
+    background: #000;
+}
+
+.post .eightcol {
+    border: 3px #FFF;
+}
+
+.post.format-video .entry,
+.post.format-image .entry {
+    background: #000;
+}
+
+.post .postmetadata .permalink,
+.page .postmetadata .permalink,
+.single-post .postmetadata .permalink {
+    color: #FFF;
+}
+
+.rw-rating-table.rw-center {
+    margin: 0px !important;
+}
+
+.wrapper {
+    background: #000;
+}

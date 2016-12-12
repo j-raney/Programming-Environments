@@ -1,0 +1,70 @@
+/*
+Theme Name: Too Spooky
+Author: Jack Raney
+Author URI: http://author.skeletonmemes.pw/
+Description: This theme brings the spookiness of your blog or other WordPress page to a whole new level. It is a great theme for the month of October.
+Version: 1.0.0
+License: GPL3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: toospooky
+*/
+
+/*
+Special font, Headhunter
+Credit to David Rakowski
+https://www.fontsquirrel.com/fonts/Headhunter
+*/
+@font-face {
+    font-family: 'headhunterregular';
+    src: url('fonts/Headhunter/Headhunter-Regular-webfont.eot');
+    src: url('fonts/Headhunter/Headhunter-Regular-webfont.eot?#iefix')
+         format('embedded-opentype'),
+         url('fonts/Headhunter/Headhunter-Regular-webfont.woff')
+         format('woff'),
+         url('fonts/Headhunter/Headhunter-Regular-webfont.ttf')
+         format('truetype'),
+         url('fonts/Headhunter/Headhunter-Regular-webfont.svg#headhunterregular')
+         format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Entire page */
+html {
+    font-family: "headhunterregular", "Papyrus", "Comic Sans MS", "Comic Sans", serif;
+    color: #ff9100;
+    background-color: #000;
+    background-image: url(http://skeletonmemes.pw/wp-content/themes/toospooky/images/halloween-clip-art.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+/* Header */
+#header {
+    font-size: 35px;
+    margin-top: 3px;
+}
+
+/* Post titles */
+#post-title {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+/* Loop title */
+#loop-title {
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+/* Unvisited links */
+a:link {
+    color: #8a0707;
+}
+
+/* Visited links */
+a:visited {
+    color: #040;
+}
